@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
+import KikUnityLib
 class ViewController: UIViewController {
 
+    var kikusers = KikLib?.self
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(kikusers)
+//        print(kikLib)
+//        print(KikUnityLib.kik)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0363C4381FD0CD4EF29A3226B38E9197 /* Pods-KikUnityLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7CB54BF04021E39092FDE353AD152F /* Pods-KikUnityLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BBE4BF14D70598BCF70A21A2BAD5644 /* KikUnityLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A36381766743B5601BB8C0302259 /* KikUnityLib-dummy.m */; };
-		151A51A361F0BA64BD883CC126FCE2FC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */; };
 		33647E5ECBA566DDFC0A33D9E5122CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		37BD7B1C5D01A5A630E18053A0D16A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		6943C72E0310A88E811C0F5DEB5A83C8 /* Pods-KikUnityLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F460392729C5CDC77786B6A1652AE470 /* Pods-KikUnityLib_Example-dummy.m */; };
 		81E82084F56DAF314FF6B7F8002FBB79 /* Pods-KikUnityLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8D7B64D6A8CE09FAD083BC7573AF28 /* Pods-KikUnityLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DF9BE0380DD0688B848EDB7943A452C /* KikUnityLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0185DE0C64DBC12217766BA85164D283 /* KikUnityLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63835A5238E6E73007B21AA /* KikLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63835A4238E6E73007B21AA /* KikLib.swift */; };
 		E4E9115A54C8B653A2D5DD64415F870A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		FD13917649CF50A2CC24A61AECC34973 /* Pods-KikUnityLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799CD37E6A7FCE6271F9B3747C4470BF /* Pods-KikUnityLib_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -40,31 +40,31 @@
 		0185DE0C64DBC12217766BA85164D283 /* KikUnityLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KikUnityLib-umbrella.h"; sourceTree = "<group>"; };
 		0448901FE60684F3AD16D92701AC0DB8 /* KikUnityLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KikUnityLib.modulemap; sourceTree = "<group>"; };
 		05FB399CD7A72B9CA9BC5EB93499CB6C /* Pods-KikUnityLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		116C873FA51BA71041769734859E508D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		116C873FA51BA71041769734859E508D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28E4A36381766743B5601BB8C0302259 /* KikUnityLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KikUnityLib-dummy.m"; sourceTree = "<group>"; };
 		2A5FB84CFCA2901069A68876110C646A /* Pods-KikUnityLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KikUnityLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C35B93609ED97D6E9A3CF7AF1B47E62 /* Pods_KikUnityLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KikUnityLib_Tests.framework; path = "Pods-KikUnityLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3039581F30C9127D70DC5D71D668E276 /* KikUnityLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KikUnityLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C35B93609ED97D6E9A3CF7AF1B47E62 /* Pods_KikUnityLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KikUnityLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3039581F30C9127D70DC5D71D668E276 /* KikUnityLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KikUnityLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B9E14F63F730F669BE82D86EBAE6138 /* Pods-KikUnityLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3F44186B0DEED8D963C474369E1C7810 /* KikUnityLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KikUnityLib.xcconfig; sourceTree = "<group>"; };
 		44A2B6E26391718DD6D561F501568C56 /* Pods-KikUnityLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D42A1FA981B5A62985E650D0E6866EB /* Pods-KikUnityLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KikUnityLib_Example.modulemap"; sourceTree = "<group>"; };
-		5171D70C927C0418D708669058019DEB /* Pods_KikUnityLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KikUnityLib_Example.framework; path = "Pods-KikUnityLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B41ECAC818C57FF709601D3E99D9E81 /* KikUnityLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KikUnityLib.framework; path = KikUnityLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5171D70C927C0418D708669058019DEB /* Pods_KikUnityLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KikUnityLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B41ECAC818C57FF709601D3E99D9E81 /* KikUnityLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KikUnityLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E646FB501DE7936B7047EDB49FE0916 /* Pods-KikUnityLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		700C886DE91C9C5753F74A716C1EE5D5 /* Pods-KikUnityLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KikUnityLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		799CD37E6A7FCE6271F9B3747C4470BF /* Pods-KikUnityLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KikUnityLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		7E7CB54BF04021E39092FDE353AD152F /* Pods-KikUnityLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KikUnityLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E7D2814A350D5FA730EF4C309E6FE7B /* Pods-KikUnityLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KikUnityLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		84DB81D5F058C4BF506B3CAEE88A5588 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84DB81D5F058C4BF506B3CAEE88A5588 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF802DFC1BF8AFE20F963A67F2B544B9 /* Pods-KikUnityLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KikUnityLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0736CA592E2FAE1BF3840A8F3D0E77C /* Pods-KikUnityLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		B63835A4238E6E73007B21AA /* KikLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KikLib.swift; sourceTree = "<group>"; };
 		C5AA9E9FFBDA87DB86C934CD80428A52 /* Pods-KikUnityLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D2D59E19113A89D5C58D84C95FA464A7 /* Pods-KikUnityLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Example-resources.sh"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF8D7B64D6A8CE09FAD083BC7573AF28 /* Pods-KikUnityLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KikUnityLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KikUnityLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		ED45E0C2721F42E27C2CC6C4C313621B /* Pods-KikUnityLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KikUnityLib_Tests.modulemap"; sourceTree = "<group>"; };
 		EE31696DA46046BC85A8067534407B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F36272895BF07B2CF85FCB289D97B968 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 		7B28F7F68BAA24AA49901979424A6761 /* KikUnityLib */ = {
 			isa = PBXGroup;
 			children = (
-				E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */,
+				B63835A3238E6E3A007B21AA /* Source */,
 				2909A86BC5215E2719085A802D26E255 /* Pod */,
 				E9B682D72A26311A8ED2E1B61E7A12F0 /* Support Files */,
 			);
@@ -194,6 +194,14 @@
 				070834D382D96F5E42D4FF711858CEBA /* Products */,
 				B993AD3BD1EA7CAEE04575FA638A7549 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		B63835A3238E6E3A007B21AA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B63835A4238E6E73007B21AA /* KikLib.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B993AD3BD1EA7CAEE04575FA638A7549 /* Targets Support Files */ = {
@@ -378,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63835A5238E6E73007B21AA /* KikLib.swift in Sources */,
 				0BBE4BF14D70598BCF70A21A2BAD5644 /* KikUnityLib-dummy.m in Sources */,
-				151A51A361F0BA64BD883CC126FCE2FC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,8 +572,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
