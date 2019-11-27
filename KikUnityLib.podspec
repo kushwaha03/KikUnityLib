@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/* {.}'
+  s.source_files = 'KikUnityLib/Classes/**/*'
   
   # s.resource_bundles = {
   #   'KikUnityLib' => ['KikUnityLib/Assets/*.png']
