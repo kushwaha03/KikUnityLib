@@ -1,0 +1,16 @@
+PODS:
+  - KikUnityLib (0.1.0)
+
+DEPENDENCIES:
+  - KikUnityLib (from `../`)
+
+EXTERNAL SOURCES:
+  KikUnityLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KikUnityLib: a005a7a85d25b0cdc460ca2e80adfabdfc275e3f
+
+PODFILE CHECKSUM: a73aa34bef17eaa051f3bc55bfddd7433defebe5
+
+COCOAPODS: 1.5.3

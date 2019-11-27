@@ -1,0 +1,22 @@
+{
+  "name": "KikUnityLib",
+  "version": "0.1.0",
+  "summary": "A short description of KikUnityLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kushwaha03/KikUnityLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kushwaha03": "kushwahakrishna03@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kushwaha03/KikUnityLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KikUnityLib/Classes/**/*"
+}

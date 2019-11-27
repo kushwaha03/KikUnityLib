@@ -1,0 +1,6 @@
+framework module KikUnityLib {
+  umbrella header "KikUnityLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

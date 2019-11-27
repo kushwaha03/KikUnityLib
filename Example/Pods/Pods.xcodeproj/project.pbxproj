@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0363C4381FD0CD4EF29A3226B38E9197 /* Pods-KikUnityLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7CB54BF04021E39092FDE353AD152F /* Pods-KikUnityLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBE4BF14D70598BCF70A21A2BAD5644 /* KikUnityLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A36381766743B5601BB8C0302259 /* KikUnityLib-dummy.m */; };
+		151A51A361F0BA64BD883CC126FCE2FC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */; };
+		33647E5ECBA566DDFC0A33D9E5122CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		37BD7B1C5D01A5A630E18053A0D16A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		6943C72E0310A88E811C0F5DEB5A83C8 /* Pods-KikUnityLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F460392729C5CDC77786B6A1652AE470 /* Pods-KikUnityLib_Example-dummy.m */; };
+		81E82084F56DAF314FF6B7F8002FBB79 /* Pods-KikUnityLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8D7B64D6A8CE09FAD083BC7573AF28 /* Pods-KikUnityLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF9BE0380DD0688B848EDB7943A452C /* KikUnityLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0185DE0C64DBC12217766BA85164D283 /* KikUnityLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E9115A54C8B653A2D5DD64415F870A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FD13917649CF50A2CC24A61AECC34973 /* Pods-KikUnityLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799CD37E6A7FCE6271F9B3747C4470BF /* Pods-KikUnityLib_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72EB01B36C77D93BFDF25F91CEFB2023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6535DB90281A5661BD71E048D428992;
+			remoteInfo = KikUnityLib;
+		};
+		CF565440E589EC9B2D1306E49B7194CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9D16BCC6CCEA1B6CCEB3E08533E556;
+			remoteInfo = "Pods-KikUnityLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0185DE0C64DBC12217766BA85164D283 /* KikUnityLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KikUnityLib-umbrella.h"; sourceTree = "<group>"; };
+		0448901FE60684F3AD16D92701AC0DB8 /* KikUnityLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KikUnityLib.modulemap; sourceTree = "<group>"; };
+		05FB399CD7A72B9CA9BC5EB93499CB6C /* Pods-KikUnityLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		116C873FA51BA71041769734859E508D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		28E4A36381766743B5601BB8C0302259 /* KikUnityLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KikUnityLib-dummy.m"; sourceTree = "<group>"; };
+		2A5FB84CFCA2901069A68876110C646A /* Pods-KikUnityLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KikUnityLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C35B93609ED97D6E9A3CF7AF1B47E62 /* Pods_KikUnityLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KikUnityLib_Tests.framework; path = "Pods-KikUnityLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3039581F30C9127D70DC5D71D668E276 /* KikUnityLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KikUnityLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B9E14F63F730F669BE82D86EBAE6138 /* Pods-KikUnityLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3F44186B0DEED8D963C474369E1C7810 /* KikUnityLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KikUnityLib.xcconfig; sourceTree = "<group>"; };
+		44A2B6E26391718DD6D561F501568C56 /* Pods-KikUnityLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D42A1FA981B5A62985E650D0E6866EB /* Pods-KikUnityLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KikUnityLib_Example.modulemap"; sourceTree = "<group>"; };
+		5171D70C927C0418D708669058019DEB /* Pods_KikUnityLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KikUnityLib_Example.framework; path = "Pods-KikUnityLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B41ECAC818C57FF709601D3E99D9E81 /* KikUnityLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KikUnityLib.framework; path = KikUnityLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E646FB501DE7936B7047EDB49FE0916 /* Pods-KikUnityLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		700C886DE91C9C5753F74A716C1EE5D5 /* Pods-KikUnityLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KikUnityLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		799CD37E6A7FCE6271F9B3747C4470BF /* Pods-KikUnityLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KikUnityLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E7CB54BF04021E39092FDE353AD152F /* Pods-KikUnityLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KikUnityLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E7D2814A350D5FA730EF4C309E6FE7B /* Pods-KikUnityLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KikUnityLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84DB81D5F058C4BF506B3CAEE88A5588 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF802DFC1BF8AFE20F963A67F2B544B9 /* Pods-KikUnityLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KikUnityLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0736CA592E2FAE1BF3840A8F3D0E77C /* Pods-KikUnityLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		C5AA9E9FFBDA87DB86C934CD80428A52 /* Pods-KikUnityLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D2D59E19113A89D5C58D84C95FA464A7 /* Pods-KikUnityLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KikUnityLib_Example-resources.sh"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF8D7B64D6A8CE09FAD083BC7573AF28 /* Pods-KikUnityLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KikUnityLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KikUnityLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ED45E0C2721F42E27C2CC6C4C313621B /* Pods-KikUnityLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KikUnityLib_Tests.modulemap"; sourceTree = "<group>"; };
+		EE31696DA46046BC85A8067534407B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36272895BF07B2CF85FCB289D97B968 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F460392729C5CDC77786B6A1652AE470 /* Pods-KikUnityLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KikUnityLib_Example-dummy.m"; sourceTree = "<group>"; };
+		F85EECE0126B44C8DF42F5AA75B97CD6 /* KikUnityLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KikUnityLib-prefix.pch"; sourceTree = "<group>"; };
+		FF7870FE0B2DD7947102531F58EEB471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF842D85C89F57B6EDB265E363365F9 /* Pods-KikUnityLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KikUnityLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1370176EC6BD3A981673552A6EBDA6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BD7B1C5D01A5A630E18053A0D16A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5922FAF243CDD2A4279CD5E67516ADE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33647E5ECBA566DDFC0A33D9E5122CEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4FFCEA6E574C6601490A6B50E8009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9115A54C8B653A2D5DD64415F870A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070834D382D96F5E42D4FF711858CEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B41ECAC818C57FF709601D3E99D9E81 /* KikUnityLib.framework */,
+				5171D70C927C0418D708669058019DEB /* Pods_KikUnityLib_Example.framework */,
+				2C35B93609ED97D6E9A3CF7AF1B47E62 /* Pods_KikUnityLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDD634B1D6BAD981E8D00716FD7C214 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B28F7F68BAA24AA49901979424A6761 /* KikUnityLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2909A86BC5215E2719085A802D26E255 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3039581F30C9127D70DC5D71D668E276 /* KikUnityLib.podspec */,
+				116C873FA51BA71041769734859E508D /* LICENSE */,
+				84DB81D5F058C4BF506B3CAEE88A5588 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		37305EC4C98A0EC9FA6FD65A545AB985 /* Pods-KikUnityLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF7870FE0B2DD7947102531F58EEB471 /* Info.plist */,
+				4D42A1FA981B5A62985E650D0E6866EB /* Pods-KikUnityLib_Example.modulemap */,
+				2A5FB84CFCA2901069A68876110C646A /* Pods-KikUnityLib_Example-acknowledgements.markdown */,
+				7E7D2814A350D5FA730EF4C309E6FE7B /* Pods-KikUnityLib_Example-acknowledgements.plist */,
+				F460392729C5CDC77786B6A1652AE470 /* Pods-KikUnityLib_Example-dummy.m */,
+				3B9E14F63F730F669BE82D86EBAE6138 /* Pods-KikUnityLib_Example-frameworks.sh */,
+				D2D59E19113A89D5C58D84C95FA464A7 /* Pods-KikUnityLib_Example-resources.sh */,
+				DF8D7B64D6A8CE09FAD083BC7573AF28 /* Pods-KikUnityLib_Example-umbrella.h */,
+				05FB399CD7A72B9CA9BC5EB93499CB6C /* Pods-KikUnityLib_Example.debug.xcconfig */,
+				FFF842D85C89F57B6EDB265E363365F9 /* Pods-KikUnityLib_Example.release.xcconfig */,
+			);
+			name = "Pods-KikUnityLib_Example";
+			path = "Target Support Files/Pods-KikUnityLib_Example";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B10AEE9A2BA4FC0DC45680C38781DA2 /* Pods-KikUnityLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE31696DA46046BC85A8067534407B34 /* Info.plist */,
+				ED45E0C2721F42E27C2CC6C4C313621B /* Pods-KikUnityLib_Tests.modulemap */,
+				700C886DE91C9C5753F74A716C1EE5D5 /* Pods-KikUnityLib_Tests-acknowledgements.markdown */,
+				AF802DFC1BF8AFE20F963A67F2B544B9 /* Pods-KikUnityLib_Tests-acknowledgements.plist */,
+				799CD37E6A7FCE6271F9B3747C4470BF /* Pods-KikUnityLib_Tests-dummy.m */,
+				C5AA9E9FFBDA87DB86C934CD80428A52 /* Pods-KikUnityLib_Tests-frameworks.sh */,
+				B0736CA592E2FAE1BF3840A8F3D0E77C /* Pods-KikUnityLib_Tests-resources.sh */,
+				7E7CB54BF04021E39092FDE353AD152F /* Pods-KikUnityLib_Tests-umbrella.h */,
+				44A2B6E26391718DD6D561F501568C56 /* Pods-KikUnityLib_Tests.debug.xcconfig */,
+				5E646FB501DE7936B7047EDB49FE0916 /* Pods-KikUnityLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-KikUnityLib_Tests";
+			path = "Target Support Files/Pods-KikUnityLib_Tests";
+			sourceTree = "<group>";
+		};
+		7B28F7F68BAA24AA49901979424A6761 /* KikUnityLib */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8932987ACA1969D40079ADDF48A59 /* ReplaceMe.swift */,
+				2909A86BC5215E2719085A802D26E255 /* Pod */,
+				E9B682D72A26311A8ED2E1B61E7A12F0 /* Support Files */,
+			);
+			name = KikUnityLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0DDD634B1D6BAD981E8D00716FD7C214 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				070834D382D96F5E42D4FF711858CEBA /* Products */,
+				B993AD3BD1EA7CAEE04575FA638A7549 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B993AD3BD1EA7CAEE04575FA638A7549 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37305EC4C98A0EC9FA6FD65A545AB985 /* Pods-KikUnityLib_Example */,
+				4B10AEE9A2BA4FC0DC45680C38781DA2 /* Pods-KikUnityLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B682D72A26311A8ED2E1B61E7A12F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36272895BF07B2CF85FCB289D97B968 /* Info.plist */,
+				0448901FE60684F3AD16D92701AC0DB8 /* KikUnityLib.modulemap */,
+				3F44186B0DEED8D963C474369E1C7810 /* KikUnityLib.xcconfig */,
+				28E4A36381766743B5601BB8C0302259 /* KikUnityLib-dummy.m */,
+				F85EECE0126B44C8DF42F5AA75B97CD6 /* KikUnityLib-prefix.pch */,
+				0185DE0C64DBC12217766BA85164D283 /* KikUnityLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KikUnityLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3723A0516BF255D86C888527F0BE9FBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0363C4381FD0CD4EF29A3226B38E9197 /* Pods-KikUnityLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FDAB0039917BAC094A789857C233D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E82084F56DAF314FF6B7F8002FBB79 /* Pods-KikUnityLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B165F83536A09B5BC3B5FC789B054F4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF9BE0380DD0688B848EDB7943A452C /* KikUnityLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E9D16BCC6CCEA1B6CCEB3E08533E556 /* Pods-KikUnityLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE676221A234920CAC741C754C2FD8B /* Build configuration list for PBXNativeTarget "Pods-KikUnityLib_Example" */;
+			buildPhases = (
+				48FDAB0039917BAC094A789857C233D7 /* Headers */,
+				5F95748037CF69FCD12B3D81439CA34B /* Sources */,
+				94A4FFCEA6E574C6601490A6B50E8009 /* Frameworks */,
+				75FE60E0038EBDA050C6B7B0A33CDD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4951A350FFBDD23294B77A7030FFE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-KikUnityLib_Example";
+			productName = "Pods-KikUnityLib_Example";
+			productReference = 5171D70C927C0418D708669058019DEB /* Pods_KikUnityLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6535DB90281A5661BD71E048D428992 /* KikUnityLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D2769522009886D926FBDD368BF695 /* Build configuration list for PBXNativeTarget "KikUnityLib" */;
+			buildPhases = (
+				B165F83536A09B5BC3B5FC789B054F4E /* Headers */,
+				499877DA85F3F22BAC9BB99315C622E4 /* Sources */,
+				5922FAF243CDD2A4279CD5E67516ADE0 /* Frameworks */,
+				9C2B0F5134C4DADA3095C9B5F7B482BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KikUnityLib;
+			productName = KikUnityLib;
+			productReference = 5B41ECAC818C57FF709601D3E99D9E81 /* KikUnityLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDA90BCB2511807D2B606E3BDEF57C7F /* Pods-KikUnityLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8571A1A5ABB09BAC3A9DD0AF76D4B099 /* Build configuration list for PBXNativeTarget "Pods-KikUnityLib_Tests" */;
+			buildPhases = (
+				3723A0516BF255D86C888527F0BE9FBF /* Headers */,
+				28C5785B481FD7E925FB1188DA1D7C05 /* Sources */,
+				1370176EC6BD3A981673552A6EBDA6E0 /* Frameworks */,
+				0FBADAC77C0A664050E700A2ADD81FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CB70A968CF06383DDB1291357FC325 /* PBXTargetDependency */,
+			);
+			name = "Pods-KikUnityLib_Tests";
+			productName = "Pods-KikUnityLib_Tests";
+			productReference = 2C35B93609ED97D6E9A3CF7AF1B47E62 /* Pods_KikUnityLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 070834D382D96F5E42D4FF711858CEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6535DB90281A5661BD71E048D428992 /* KikUnityLib */,
+				5E9D16BCC6CCEA1B6CCEB3E08533E556 /* Pods-KikUnityLib_Example */,
+				EDA90BCB2511807D2B606E3BDEF57C7F /* Pods-KikUnityLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FBADAC77C0A664050E700A2ADD81FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FE60E0038EBDA050C6B7B0A33CDD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2B0F5134C4DADA3095C9B5F7B482BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C5785B481FD7E925FB1188DA1D7C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD13917649CF50A2CC24A61AECC34973 /* Pods-KikUnityLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499877DA85F3F22BAC9BB99315C622E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBE4BF14D70598BCF70A21A2BAD5644 /* KikUnityLib-dummy.m in Sources */,
+				151A51A361F0BA64BD883CC126FCE2FC /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F95748037CF69FCD12B3D81439CA34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6943C72E0310A88E811C0F5DEB5A83C8 /* Pods-KikUnityLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CB70A968CF06383DDB1291357FC325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KikUnityLib_Example";
+			target = 5E9D16BCC6CCEA1B6CCEB3E08533E556 /* Pods-KikUnityLib_Example */;
+			targetProxy = CF565440E589EC9B2D1306E49B7194CD /* PBXContainerItemProxy */;
+		};
+		CC4951A350FFBDD23294B77A7030FFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KikUnityLib;
+			target = D6535DB90281A5661BD71E048D428992 /* KikUnityLib */;
+			targetProxy = 72EB01B36C77D93BFDF25F91CEFB2023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41B257C15416630FF40E30D03287E24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E646FB501DE7936B7047EDB49FE0916 /* Pods-KikUnityLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KikUnityLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KikUnityLib_Tests/Pods-KikUnityLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6872F1ADE435C86CE05D806B710E1B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF842D85C89F57B6EDB265E363365F9 /* Pods-KikUnityLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KikUnityLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KikUnityLib_Example/Pods-KikUnityLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC574BC9096C958AC9B33D94F037BD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FB399CD7A72B9CA9BC5EB93499CB6C /* Pods-KikUnityLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KikUnityLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KikUnityLib_Example/Pods-KikUnityLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D079187520B4677523C07D7784BF4123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A2B6E26391718DD6D561F501568C56 /* Pods-KikUnityLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KikUnityLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KikUnityLib_Tests/Pods-KikUnityLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC265F823B73433D2A9B12AC5F07FD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44186B0DEED8D963C474369E1C7810 /* KikUnityLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KikUnityLib/KikUnityLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KikUnityLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KikUnityLib/KikUnityLib.modulemap";
+				PRODUCT_MODULE_NAME = KikUnityLib;
+				PRODUCT_NAME = KikUnityLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0EAF113EA5137BB145980EBF086C3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44186B0DEED8D963C474369E1C7810 /* KikUnityLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KikUnityLib/KikUnityLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KikUnityLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KikUnityLib/KikUnityLib.modulemap";
+				PRODUCT_MODULE_NAME = KikUnityLib;
+				PRODUCT_NAME = KikUnityLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE676221A234920CAC741C754C2FD8B /* Build configuration list for PBXNativeTarget "Pods-KikUnityLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC574BC9096C958AC9B33D94F037BD5F /* Debug */,
+				6872F1ADE435C86CE05D806B710E1B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8571A1A5ABB09BAC3A9DD0AF76D4B099 /* Build configuration list for PBXNativeTarget "Pods-KikUnityLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D079187520B4677523C07D7784BF4123 /* Debug */,
+				41B257C15416630FF40E30D03287E24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D2769522009886D926FBDD368BF695 /* Build configuration list for PBXNativeTarget "KikUnityLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EAF113EA5137BB145980EBF086C3F4 /* Debug */,
+				EC265F823B73433D2A9B12AC5F07FD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
