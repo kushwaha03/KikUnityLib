@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KikUnityLib_Example' do
+  pod 'KikUnityLib', :path => '../'
+
+  target 'KikUnityLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
